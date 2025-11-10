@@ -1,5 +1,5 @@
 {% set name = "eozilla" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eozilla-{{ version }}.tar.gz
-  sha256: 7308f5b8b3318d480bce8e704f9cd7ef555ed1e301f39ad7cca953bdd3041880
+  sha256: 2eaa206c89663c89aee60b77760c339760ea94722b86ec5dd8ab7adb726bef3c
 
 build:
   noarch: python
