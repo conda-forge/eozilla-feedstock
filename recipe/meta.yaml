@@ -22,11 +22,11 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - appligator >=0.0.7
-    - cuiman >=0.0.7
-    - gavicore >=0.0.7
-    - procodile >=0.0.7
-    - wraptile >=0.0.7
+    - appligator >=0.0.9
+    - cuiman >=0.0.9
+    - gavicore >=0.0.9
+    - procodile >=0.0.9
+    - wraptile >=0.0.9
 
 test:
   imports:
@@ -51,5 +51,12 @@ about:
 
 extra:
   recipe-maintainers:
+    - AliceBalfanz
+    - b-yogesh
+    - clarasb
     - forman
+    - konstntokas
     - pont-us
+    - TejasMorbagal
+    - thomasstorm
+    - TonioF
