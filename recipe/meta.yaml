@@ -22,11 +22,11 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - appligator >=0.0.9
-    - cuiman >=0.0.9
-    - gavicore >=0.0.9
-    - procodile >=0.0.9
-    - wraptile >=0.0.9
+    - appligator >=0.1.0
+    - cuiman >=0.1.0
+    - gavicore >=0.1.0
+    - procodile >=0.1.0
+    - wraptile >=0.1.0
 
 test:
   imports:
