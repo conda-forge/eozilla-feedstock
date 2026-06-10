@@ -1,5 +1,6 @@
 {% set name = "eozilla" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eozilla-{{ version }}.tar.gz
-  sha256: 11b984eb398536f645f267f9fc542d87e5ecc26c6a858947a9a95adf9d11c007
+  sha256: fbc1668d08d3b4928a20a10d07c551040bc1fec7b389cc1b9dc809bc152817ee
 
 build:
   noarch: python
@@ -22,11 +23,11 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - appligator >=0.1.0
-    - cuiman >=0.1.0
-    - gavicore >=0.1.0
-    - procodile >=0.1.0
-    - wraptile >=0.1.0
+    - appligator >=0.1.1
+    - cuiman >=0.1.1
+    - gavicore >=0.1.1
+    - procodile >=0.1.1
+    - wraptile >=0.1.1
 
 test:
   imports:
