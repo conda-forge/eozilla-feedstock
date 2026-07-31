@@ -1,6 +1,6 @@
 {% set name = "eozilla" %}
 {% set version = "0.1.2" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
