@@ -1,5 +1,5 @@
 {% set name = "eozilla" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eozilla-{{ version }}.tar.gz
-  sha256: a84f1973345b62cfaf780094681beda376a01bbeddc05eac8b38ba70240687e6
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/eozilla-{{ version }}.tar.gz
+  sha256: d089ddcd38cf4e29f043e6f043ce8d60215ff7e390caba859ed21da5b2170c42
 
 build:
   noarch: python
